@@ -1,0 +1,20 @@
+-g
+-std=gnu++17
+-Wall
+-Wextra
+-Wshadow
+-Wconversion
+-Wno-sign-conversion
+-Wfloat-equal
+-Wno-char-subscripts
+
+-ftrapv
+-fstack-protector-all
+-fsanitize=address,undefined
+
+-I/usr/local/opt/openssl/include
+-I.
+ -I/usr/local/Cellar/gcc/11.3.0_1/bin/../lib/gcc/11/gcc/x86_64-apple-darwin20/11/../../../../../../include/c++/11
+ -I/usr/local/Cellar/gcc/11.3.0_1/bin/../lib/gcc/11/gcc/x86_64-apple-darwin20/11/../../../../../../include/c++/11/x86_64-apple-darwin20
+ -I/usr/local/Cellar/gcc/11.3.0_1/bin/../lib/gcc/11/gcc/x86_64-apple-darwin20/11/../../../../../../include/c++/11/backward
+ -I/Library/Developer/CommandLineTools/SDKs/MacOSX11.sdk/usr/include
